@@ -1,3 +1,3 @@
-select p.id, p.name
-from products p join categories c on p.id_categories = c.id
-where c.name like 'super%'
+select prod.id, prod.name
+from products prod join categories cat on prod.id_categories = cat.id
+where cat.name like 'super%'
