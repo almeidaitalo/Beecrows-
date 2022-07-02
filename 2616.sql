@@ -1,3 +1,3 @@
-select c.id, c.name from customers c
-full outer JOIN locations l on l.id_customers = c.id
-where l.locations_date is NULL order by c.id;
+select cus.id, cus.name from customers cus
+full outer JOIN locations loc on loc.id_customers = cus.id
+where loc.locations_date is NULL order by cus.id;
