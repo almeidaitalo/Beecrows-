@@ -1,2 +1,2 @@
 select name, street from customers
-WHERE city = 'Porto Alegre'
+where city = 'Porto Alegre'
